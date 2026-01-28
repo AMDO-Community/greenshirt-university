@@ -1,23 +1,61 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
+.hero {
+  padding: 5.5rem 1.25rem 4rem;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  background: rgba(18, 180, 105, 0.06);
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.wings {
+  width: 420px;          /* big hero size */
+  max-width: 85vw;      /* responsive on mobile */
+  margin-bottom: 2rem;
+  opacity: 0.98;
 }
 
-.buttons {
+
+.title {
+  font-size: 4.25rem;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+
+.subtitle {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+.actions {
+  margin-top: 2rem;
   display: flex;
-  align-items: center;
   justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.primaryBtn,
+.secondaryBtn {
+  padding: 0.85rem 1.2rem;
+  border-radius: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.primaryBtn {
+  background: rgba(18, 180, 105, 0.2);
+}
+
+.secondaryBtn {
+  background: white;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.6rem;
+  }
+
+  .wings {
+    width: 110px;
+  }
 }
