@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkgreenshirt_university=globalThis.webpackChunkgreenshirt_university||[]).push([[1903],{1912(e){e.exports=JSON.parse('{"blogBasePath":"/greenshirt-university/blog","blogTitle":"Blog","authorsListPath":"/greenshirt-university/blog/authors"}')}}]);

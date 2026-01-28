@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkgreenshirt_university=globalThis.webpackChunkgreenshirt_university||[]).push([[4967],{3130(e){e.exports=JSON.parse('{"metadata":{"permalink":"/greenshirt-university/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
